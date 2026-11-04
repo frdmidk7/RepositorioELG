@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, sans-serif;
+} 
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+img {
+    height: 50px;
+    display: block;
+}
+
+#hola {
+    color: white;
+    background-color: gray;
+    padding: 15px;
+} 
+
+#ola {
+    color: white;
+    background-color: gray;
+    padding: 15px;
+}

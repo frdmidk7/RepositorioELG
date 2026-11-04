@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+header, footer {
+    background-color: #dcdcdc;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+
+
+main {
+    flex: 1; 
+    display: flex;
+}
+
+
+nav, article, aside {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+
+nav, aside {
+    flex: 1; 
+    background-color: #c0c0c0;
+}
+
+
+article {
+    flex: 2; 
+    background-color: #a0a0a0;
+}
